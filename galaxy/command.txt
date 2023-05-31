@@ -1,0 +1,74 @@
+Part 1
+1.
+	a. mkdir death_star
+	b. cd death_star
+	c. touch darth_vader.txt princess_leia.txt storm_trooper.txt
+2.
+	a. mkdir tattoine
+	b. mv tattoine ~/OneDrive/Desktop/perscholas/galaxy/
+	c. cd  ~/OneDrive/Desktop/perscholas/galaxy/tattoine
+	d. touch luke.txt ben_kenobi.txt
+	e.  mv  ~/OneDrive/Desktop/perscholas/galaxy/tattoine ~/OneDrive/Desktop/perscholas/galaxy/tatooine
+3.
+	a. mkdir millenium_falcon && cd millenium_falcon
+	b. touch han_solo.txt chewbaca.txt
+Part 2
+4.
+	a. mv ~/OneDrive/Desktop/perscholas/galaxy/tatooine/ben_kenobi.txt ~/OneDrive/Desktop/perscholas/galaxy/tatooine/obi_wan.txt
+Part 3
+5.
+	a.cp  ~/OneDrive/Desktop/perscholas/galaxy/death_star/storm_trooper.txt  ~/OneDrive/Desktop/perscholas/galaxy/tatooine
+Part 4
+6.
+	a. mv  ~/OneDrive/Desktop/perscholas/galaxy/tatooine/luke.txt  ~/OneDrive/Desktop/perscholas/galaxy/tatooine/millenium_falcon
+	b. mv  ~/OneDrive/Desktop/perscholas/galaxy/tatooine/obi_wan.txt  ~/OneDrive/Desktop/perscholas/galaxy/tatooine/millenium_falcon
+7.
+	a. mv ~/OneDrive/Desktop/perscholas/galaxy/tatooine/millenium_falcon  ~/OneDrive/Desktop/perscholas/galaxy/
+8. 
+	a. mv ~/OneDrive/Desktop/perscholas/galaxy/millenium_falcon  ~/OneDrive/Desktop/perscholas/galaxy/death_star
+9.
+	a. mv ~/OneDrive/Desktop/perscholas/galaxy/death_star/princess_leia.txt  ~/OneDrive/Desktop/perscholas/galaxy/death_star/millenium_falcon
+Part 5
+10.
+	a. rm  ~/OneDrive/Desktop/perscholas/galaxy/death_star/millenium_falcon/obi_wan.txt
+Part 6
+11.
+	a.mkdir  ~/OneDrive/Desktop/perscholas/galaxy/yavin_4  
+12.
+	a.  mv  ~/OneDrive/Desktop/perscholas/galaxy/death_star/millenium_falcon  ~/OneDrive/Desktop/perscholas/galaxy/yavin_4
+13.
+	a. mkdir  ~/OneDrive/Desktop/perscholas/galaxy/yavin_4/x_wing 
+14.
+	a. mv  ~/OneDrive/Desktop/perscholas/galaxy/yavin_4/millenium_falcon/princess_leia.txt  ~/OneDrive/Desktop/perscholas/galaxy/yavin_4
+	b. mv   ~/OneDrive/Desktop/perscholas/galaxy/yavin_4/millenium_falcon/luke.txt ~/OneDrive/Desktop/perscholas/galaxy/yavin_4/x_wing
+15.
+	a. mv  ~/OneDrive/Desktop/perscholas/galaxy/yavin_4/millenium_falcon/  ~/OneDrive/Desktop/perscholas/galaxy/
+	b. mv ~/OneDrive/Desktop/perscholas/galaxy/yavin_4/x_wing  ~/OneDrive/Desktop/perscholas/galaxy/
+16.
+	a.mkdir ~/OneDrive/Desktop/perscholas/galaxy/death_star/tie_fighter_1
+	b.mkdir ~/OneDrive/Desktop/perscholas/galaxy/death_star/tie_fighter_2
+	c.mkdir ~/OneDrive/Desktop/perscholas/galaxy/death_star/tie_fighter_3
+17.
+	a.mv ~/OneDrive/Desktop/perscholas/galaxy/death_star/darth_vader.txt  ~/OneDrive/Desktop/perscholas/galaxy/death_star/tie_fighter_1
+18.
+	a.cp ~/OneDrive/Desktop/perscholas/galaxy/death_star/storm_trooper.txt  ~/OneDrive/Desktop/perscholas/galaxy/death_star/tie_fighter_3
+
+19.
+	a.mv ~/OneDrive/Desktop/perscholas/galaxy/death_star/tie_fighter_1  ~/OneDrive/Desktop/perscholas/galaxy
+	b.mv ~/OneDrive/Desktop/perscholas/galaxy/death_star/tie_fighter_2  ~/OneDrive/Desktop/perscholas/galaxy
+	c.mv ~/OneDrive/Desktop/perscholas/galaxy/death_star/tie_fighter_3  ~/OneDrive/Desktop/perscholas/galaxy
+
+Part 7
+20.
+	a.rm -r ~/OneDrive/Desktop/perscholas/galaxy/tie_fighter_2
+	b.rm -r ~/OneDrive/Desktop/perscholas/galaxy/tie_fighter_3
+Part 8
+21.
+	a.touch ~/OneDrive/Desktop/perscholas/galaxy/x_wing/the_force.txt
+22.(just figured out that the relative wasn't working becuase I wasn't in the directory)
+	a.cd  ~/OneDrive/Desktop/perscholas/galaxy/
+	b.rm -r death_star
+23.
+	a.mv x_wing yavin_4
+	b.mv millenium_falcon/ yavin_4/
+	
